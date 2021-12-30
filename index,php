@@ -1,3 +1,9 @@
 <?php
 echo "does it work";
 ?>
+<?php
+$links=["Home","About us", "Galery","Contact"];
+foreach($links as $link){
+    echo($link." ");
+}
+?>
