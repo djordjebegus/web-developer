@@ -7,3 +7,13 @@ foreach($links as $link){
     echo($link." ");
 }
 ?>
+<?php
+$personal_data_in=[
+    "Name"=>"Djole",
+    "Surname"=>"Djole1",
+    "phone number"=>"Djole2",
+    "address"=>"Djole3"];
+foreach($personal_data_in as $key=>$value){
+    echo $key." : ".$value."<pre>";
+}
+?>
