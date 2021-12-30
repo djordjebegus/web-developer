@@ -17,3 +17,12 @@ foreach($personal_data_in as $key=>$value){
     echo $key." : ".$value."<pre>";
 }
 ?>
+
+<?php
+$links=["Home","About us", "Galery","Contact"];?>
+<ul>
+<?php foreach($links as $link):?>
+    
+    <?php echo  '<li><a href="">'.$link.'</a></li>' ;?>
+   <?php endforeach; ?>
+</ul>
